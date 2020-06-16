@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.txt-white{
+    color: white;
+}
+.txt-black{
+    color: black;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-black{
+    background-color: #1A1A1A;
+}
+input{
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    max-width: 590px;
+    width: 100%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+#btn-add {
+    background-color: #33FFD1;
+}
+.btn-delete {
+    background-color: #FF3333;
+}
+.container {
+    margin:auto;
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    margin:auto;
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+.contentBar{
+    
+    margin:auto;
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+
+    
+}
+
+h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.mg-t50{
+    margin-top: 50px;
+}
+.divTexto{
+    height: 44px;
+    border: 3px solid black;
+    border-radius: 5px;
+    max-width: 584px;
+    width: 100%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 44px;
+}
+.cortada{
+    text-decoration: line-through;
+}
+
+.progressBar{
+    display: flex;
+    max-width: 638px;
+    width: 100%;
+    height: 10px;
+    border: 1px solid black;
+}
+.progressBarDid{
+    display: flex;
+    max-width: 638px;
+    width: 100%;
+    height: 10px;
+    background-color: #5FFF33;
+    border: 1px solid black;
+}
+.bd-white{
+    border: 1px solid white;
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    25% {opacity: 0.25;}
+    50% {opacity: 0.5;}
+    75% {opacity: 0.75;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeOut{
+    0% {opacity: 1;}
+    25% {opacity: 0.75;}
+    50% {opacity: 0.5;}
+    75% {opacity: 0.25;}
+    100% {opacity: 0;}
+}
